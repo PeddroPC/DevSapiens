@@ -1,0 +1,50 @@
+.new-project-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+  
+label {
+    display: block;
+    margin-top: 10px;
+}
+  
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    resize: none;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+  
+button {
+    background-color: #747bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #747bff;
+}
+.two-fields {
+    display: flex;
+    justify-content: space-between;
+}
+.field {
+    width: 48%;
+}

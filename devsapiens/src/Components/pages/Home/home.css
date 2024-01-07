@@ -1,0 +1,13 @@
+.body{
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    padding: 10px;
+}
+.text{
+    color: #535bf2;
+}

@@ -1,0 +1,42 @@
+.cursos{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cursos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .curso-card {
+    background-color: #213547;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  
+    /* Ajustes de tamanho e espaçamento */
+    width: 31.9%;
+    margin-bottom: 20px;
+  }
+  
+  .curso-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .curso-card h3 {
+    margin: 0;
+    padding: 15px;
+    background-color: #646cff;
+    color: #fff;
+  }
+  
+  .curso-card p {
+    padding: 15px;
+    margin: 0;
+    word-wrap: break-word;
+  }
+  
+  /* Adicione mais estilos conforme necessário */
+  
